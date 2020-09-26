@@ -4,18 +4,18 @@ import java.util.ArrayList;
 
 public class Ave extends Animal {
 	
-	private static ArrayList<Ave>lista1= new ArrayList<>();
+	private static ArrayList<Ave>listaan= new ArrayList<>();
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
 	public Ave(String nombre, int edad, String habitat, String genero, String colorPlumas) {
 		super(nombre, edad, habitat, genero);
 		this.colorPlumas = colorPlumas;
-		listado.add(this);
+		listaan.add(this);
 	}
 	public Ave() {
 		super();
-		lista1.add(this);
+		listaan.add(this);
 	}
 	public String getColorPlumas() {
 		return colorPlumas;
@@ -37,7 +37,7 @@ public class Ave extends Animal {
 	}
 	
 	public static int  cantidadAves() {
-		return lista1.size();
+		return listaan.size();
 	}
 	
 	public String movimiento() {
