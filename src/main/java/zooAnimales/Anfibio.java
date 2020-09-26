@@ -21,12 +21,12 @@ public class Anfibio extends Animal {
 		listaan.add(this);
 	}
 
-	public String getColorPiel() {
-		return colorPiel;
-	}
-
 	public void setColorPiel(String colorPiel) {
 		this.colorPiel = colorPiel;
+	}
+	
+	public String getColorPiel() {
+		return colorPiel;
 	}
 
 	public boolean isVenenoso() {

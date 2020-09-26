@@ -36,24 +36,24 @@ public class Animal {
 		return "desplazarse";
 	}
 
-	public static int getTotalAnimales() {
-		return totalAnimales;
-	}
-
 	public static void setTotalAnimales(int totalAnimales) {
 		Animal.totalAnimales = totalAnimales;
+	}
+	
+	public static int getTotalAnimales() {
+		return totalAnimales;
 	}
 
 	public String getNombre() {
 		return nombre;
 	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
+	
 	public int getEdad() {
 		return edad;
+	}
+	
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 	public void setEdad(int edad) {
@@ -71,13 +71,13 @@ public class Animal {
 	public String getGenero() {
 		return genero;
 	}
-
-	public void setGenero(String genero) {
-		this.genero = genero;
-	}
-
+	
 	public Zona getZona() {
 		return zona;
+	}
+	
+	public void setGenero(String genero) {
+		this.genero = genero;
 	}
 
 	public void setZona(Zona zona) {
